@@ -70,7 +70,7 @@ def dialog():
 			window1.geometry('400x100+{}+{}'.format(w, h))
 			lbl = Label(window1, text=nane)
 			lbl.grid(column=0, row=0)  
-			time.sleep(0.1)
+			time.sleep(0.5)
 		window1.mainloop()
 		box.showwarning('No Box' , 'Ну и нахера ты сломал компухтер?! \n ты всётаки дебил...')
 btn = Button (window, text = "НЕ НАЖИМАТЬ!", command=dialog)
